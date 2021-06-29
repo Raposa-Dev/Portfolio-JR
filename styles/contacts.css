@@ -1,0 +1,9 @@
+.content ul li {
+    color: rgb(51, 48, 48);
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    padding: 1rem;
+}

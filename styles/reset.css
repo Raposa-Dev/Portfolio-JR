@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(38, 50, 56);
+}
+body{
+    background-color: rgb(238, 235, 235);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: fuchsia;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px rgb(126, 125, 126);
+}
+header h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1em;
+    color: rgb(248, 247, 248);
+    padding: 0.5em;
+}
+
+#navigation ul{
+    display: flex;
+}
+
+#navigation ul li a {
+    margin: 1rem;
+    color: whitesmoke;
+    font-size:medium;
+}
+
+#navigation ul li a:hover {
+    color: black;
+}
