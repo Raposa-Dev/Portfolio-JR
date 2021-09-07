@@ -6,7 +6,12 @@ body{
 
 .content{
     display: flex;
-    
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.content > div {
+    flex: 1 1 280px;
 }
 
 .card {
@@ -17,8 +22,7 @@ body{
     padding: 1rem;
     width: 30vw;
     height: 30vh;
-    text-align: center;
-    color: rgb(94, 88, 88);
+    justify-content: center;
     margin: 1rem;
     border-radius: 0.3rem;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 
@@ -29,5 +33,20 @@ body{
 
 .card-one {
     background: url(../assets/images/MaratonaDiscover.png)no-repeat center/cover;
+}
+
+.card-two {
+    background: url(../assets/images/Progress\ _Outline.svg)no-repeat center/cover;
+}
+
+#btn-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color:rgb(19, 165, 82);
+    width: 100px;
+    height: 30px;
+    color: whitesmoke;
 }
 
