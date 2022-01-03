@@ -4,14 +4,17 @@ body{
     height: 100vh;
 }
 
-.content{
+main.content{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
+    margin: auto;
 }
 
 .content > div {
-    flex: 1 1 280px;
+    flex: 1 1 128px;
 }
 
 .card {
@@ -36,6 +39,10 @@ body{
 }
 
 .card-two {
+    background: url(../assets/images/game-mania.png)no-repeat center/cover;
+}
+
+.card-tree {
     background: url(../assets/images/Progress\ _Outline.svg)no-repeat center/cover;
 }
 
@@ -50,3 +57,31 @@ body{
     color: whitesmoke;
 }
 
+
+
+@media (max-width: 720px) {
+    .content > div {
+        flex: 1 1 128px;
+    }
+
+    main.content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: auto;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 90vw;
+    }
+}
