@@ -1,10 +1,12 @@
 body{
     background-color: rgb(255, 254, 251);
-    width: 100vw;
-    height: 100vh;
 }
 
-main.content{
+conteiner {
+    width: 100%;
+}
+
+.content{
     width: 100%;
     height: 100%;
     display: flex;
@@ -34,18 +36,6 @@ main.content{
     0 16px 16px rgba(0, 0, 0, 0.1);
 }
 
-.card-one {
-    background: url(../assets/images/MaratonaDiscover.png)no-repeat center/cover;
-}
-
-.card-two {
-    background: url(../assets/images/game-mania.png)no-repeat center/cover;
-}
-
-.card-tree {
-    background: url(../assets/images/Progress\ _Outline.svg)no-repeat center/cover;
-}
-
 #btn-a{
     display: flex;
     justify-content: center;
@@ -57,6 +47,37 @@ main.content{
     color: whitesmoke;
 }
 
+.card-one {
+    background: url(../assets/images/MaratonaDiscover.png)no-repeat center/cover;
+}
+
+.card-two {
+    background: url(../assets/images/game-mania.png)no-repeat center/cover;
+}
+
+.card-tree {
+    background: url(../assets/images/jkp.png)no-repeat center/cover;
+}
+
+.card-four{
+    background: url(../assets/images/Calculadora.png)no-repeat center/cover;
+}
+
+.card-five {
+    background: url(../assets/images/Captura\ de\ tela_2022-10-10_23-09-18.png)no-repeat center/cover;
+}
+
+.card-six {
+    background: url(../assets/images/Captura\ de\ tela_2022-10-10_23-24-08.png)no-repeat center/cover;
+}
+
+.card-seven {
+    background: url(../assets/images/TO-DO-LIST.png)no-repeat center/cover;
+}
+
+.card-working {
+    background: url(../assets/images/Progress\ _Outline.svg)no-repeat center/cover;
+}
 
 
 @media (max-width: 720px) {
@@ -64,7 +85,7 @@ main.content{
         flex: 1 1 128px;
     }
 
-    main.content{
+    .content{
         display: flex;
         align-items: center;
         flex-direction: column;
