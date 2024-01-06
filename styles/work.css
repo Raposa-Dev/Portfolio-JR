@@ -78,6 +78,9 @@ conteiner {
 .card-working {
     background: url(../assets/images/Progress\ _Outline.svg)no-repeat center/cover;
 }
+.card-eight {
+    background: url(../assets/images/stock.png)no-repeat center/cover;
+}
 
 
 @media (max-width: 720px) {
