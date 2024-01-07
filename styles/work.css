@@ -82,6 +82,22 @@ conteiner {
     background: url(../assets/images/stock.png)no-repeat center/cover;
 }
 
+.card-nine {
+    background: url(../assets/images/yu-gi-yo.png)no-repeat center/cover;
+}
+
+.card-ten {
+    background: url(../assets/images/piano.png)no-repeat center/cover;
+}
+
+.card-eleven{
+    background: url(../assets/images/memoria.png)no-repeat center/cover;
+}
+
+.card-Twelve{
+    background: url(../assets/images/detona-halp.png)no-repeat center/cover;
+}
+
 
 @media (max-width: 720px) {
     .content > div {
